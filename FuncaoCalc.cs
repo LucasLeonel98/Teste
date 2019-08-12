@@ -37,5 +37,11 @@ namespace CalculadoraJuros
             double valorCapital = valorFinal / aux;
             return valorCapital;
         }
+
+        public double CalcularValorFinalComposto(double vp, int nPer, double taxa)
+        {
+            double vf = vp * Math.Pow(1+taxa,nPer);
+            return vf;
+        }
     }
 }

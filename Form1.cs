@@ -36,7 +36,7 @@ namespace CalculadoraJuros
                 int valorNper = int.Parse(txtTempo.Text);
                 double valorTaxa = double.Parse(txtTaxa.Text);
 
-                txtVf.Text = calculadora.CalcularVf(valorVp, valorNper, valorTaxa).ToString();
+                txtVf.Text =String.Format("{0:0.00}", calculadora.CalcularVf(valorVp, valorNper, valorTaxa));
             }
         }
 
@@ -100,6 +100,24 @@ namespace CalculadoraJuros
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCalcularJurosComp_Click(object sender, EventArgs e)
+        {
+            // Botão Valor Final Juros Compostos
+            if (txtCapitalJuosComp.Text.Length == 0 || txtTaxaJurosComp.Text.Length == 0 || txtTempoJurosComp.Text.Length == 0)
+            {
+                MessageBox.Show("Erro Campos não preenchidos, somente o campo valor final deve ficar vazio, Tente novamente !!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                double valorVp = double.Parse(txtCapitalJuosComp.Text);
+                int valorNper = int.Parse(txtTempoJurosComp.Text);
+                double valorTaxa = double.Parse(txtTaxaJurosComp.Text);
+                
+                txtValorFinalJurosComp.Text = String.Format("{0:0.00}", calculadora.CalcularValorFinalComposto(valorVp, valorNper, valorTaxa));
+            }
+            
         }
     }
 }

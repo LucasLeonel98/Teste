@@ -18,3 +18,13 @@ C:\Users\Lucas\Desktop\faculdade\Calculadora juros\CalculadoraJuros\obj\Debug\Ca
 C:\Users\Lucas\Desktop\faculdade\Calculadora juros\CalculadoraJuros\obj\Debug\CalculadoraJuros.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\faculdade\Calculadora juros\CalculadoraJuros\obj\Debug\CalculadoraJuros.exe
 C:\Users\Lucas\Desktop\faculdade\Calculadora juros\CalculadoraJuros\obj\Debug\CalculadoraJuros.pdb
+D:\BD\git\Online\Prj\bin\Debug\CalculadoraJuros.exe.config
+D:\BD\git\Online\Prj\bin\Debug\CalculadoraJuros.exe
+D:\BD\git\Online\Prj\bin\Debug\CalculadoraJuros.pdb
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.csprojAssemblyReference.cache
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.Form1.resources
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.Properties.Resources.resources
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.csproj.GenerateResource.cache
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.csproj.CoreCompileInputs.cache
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.exe
+D:\BD\git\Online\Prj\obj\Debug\CalculadoraJuros.pdb
